@@ -1,6 +1,5 @@
-import React, {
-    Component
-} from 'react';
+import React, { Component } from 'react';
+import { selectTraining } from '../../../../actions';
 
 class Card extends Component {
     render() {
