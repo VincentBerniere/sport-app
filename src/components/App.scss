@@ -1,0 +1,10 @@
+@import '../shared.scss';
+
+.App {
+  font-size: calc(10px + 2vmin);
+  color: $white-color;
+}
+
+.main.container {
+  margin-top: 5em;
+}
