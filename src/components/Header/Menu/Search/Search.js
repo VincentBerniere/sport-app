@@ -77,7 +77,7 @@ class Search extends Component {
                 <div className={`ui search category
                     ${this.state.loading ? 'loading' : ''}`}>
 
-                    <div class="ui icon input">
+                    <div className="ui icon input">
                         <i className="search icon"></i>
                         <input 
                             type="text" 

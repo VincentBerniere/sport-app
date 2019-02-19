@@ -1,8 +1,9 @@
 import React, {
     Component
 } from 'react';
-import Training from './Training/Training';
 import Authentification from './Authentification/Authentification';
+import TrainingList from './TrainingList/TrainingList';
+import TrainingDetail from './TrainingDetail/TrainingDetail';
 
 class Content extends Component {
     render() {
@@ -10,7 +11,8 @@ class Content extends Component {
             <div>  
                 <Authentification />
                 <br /><br/>
-                <Training />
+                <TrainingList />
+                <TrainingDetail />
             </div>
         );
     }

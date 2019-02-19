@@ -1,7 +1,6 @@
 import React, { Component } from 'react';
-import { selectTraining } from '../../../../actions';
 
-class Card extends Component {
+class TrainingCard extends Component {
     render() {
         return ( 
             <div className="ui card">
@@ -9,7 +8,7 @@ class Card extends Component {
                     <i className="right floated like icon"></i>
                     <i className="right floated star icon"></i>
 
-                    <div className="header">Programme de Musculation</div>
+                    <div className="header">{this.props.training.title}</div>
 
                     <div className="description">
                         <p>
@@ -33,4 +32,4 @@ class Card extends Component {
     }
 }
 
-export default Card;
+export default TrainingCard;
