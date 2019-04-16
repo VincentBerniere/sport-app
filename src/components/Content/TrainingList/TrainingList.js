@@ -11,21 +11,21 @@ class TrainingList extends Component {
     renderList() {
         return this.props.trainings.map(training => {
             return (
-                <div key={training.id} className="six wide tablet five wide computer column">
+                <div key={training.id} className="sixteen wide mobile six wide tablet four wide computer column">
                     <div onClick={() => this.props.selectTraining(training)}>
-                        <TrainingCard 
+                        <TrainingCard
                             training={training}
                         />
                     </div>
-                </div> 
+                </div>
             );
         });
     }
 
     render() {
-        return ( 
-            <div className="ui grid centered">
-                    {this.renderList()}
+        return (
+            <div className="ui centered grid">
+                {this.renderList()}
             </div>
         );
     }

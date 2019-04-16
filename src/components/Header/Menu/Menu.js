@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import faker from 'faker';
+import { Link } from 'react-router-dom';
 import './Menu.scss';
 
 import Search from './Search/Search.js';
@@ -9,24 +10,27 @@ class Menu extends Component {
         return (
             <div className="ui fixed inverted menu">
                 <div className="ui container">
-                    <a href="#" className="header item">
+                    <Link to="/" className="header item">
                         <img className="logo" alt="logo" src={faker.image.avatar()} />
                         SportApp
-                    </a>
-                    <a href="#" className="item">
+                    </Link>
+
+                    <Link to="/trainings" className="item">
                         Entraînement
-                    </a>
-                    <a href="#" className="item">
+                    </Link>
+
+                    <Link to="/nutrition" className="item">
                         Nutrition
-                    </a>
+                    </Link>
 
                     <div className="right menu">
                         <div className="item">
                             <Search />
                         </div>
                         <div className="item">
-                            <a className="ui inverted button">Connexion</a>
-                            <a id="sign-up" className="ui inverted button">Inscription</a>
+                            <Link className="ui inverted button">Connexion</Link>
+
+                            <Link id="sign-up" className="ui inverted button">Inscription</Link>
                         </div>
                     </div>
                 </div>
