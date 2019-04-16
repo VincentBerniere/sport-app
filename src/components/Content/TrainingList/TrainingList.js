@@ -1,14 +1,17 @@
 import React, { Component } from 'react';
 import { connect } from 'react-redux';
-import { selectTraining } from '../../../actions';
-
+import { selectTraining, fetchTrainings } from '../../../actions';
 import TrainingCard from './TrainingCard/TrainingCard';
 
 class TrainingList extends Component {
+    componentDidMount() {
+        this.props.fetchTrainings();
+    }
+
     renderList() {
-        const trainingList = this.props.trainings.map(training => {
+        return this.props.trainings.map(training => {
             return (
-                <div key={training.id} className="six wide tablet four wide computer column">
+                <div key={training.id} className="six wide tablet five wide computer column">
                     <div onClick={() => this.props.selectTraining(training)}>
                         <TrainingCard 
                             training={training}
@@ -17,18 +20,12 @@ class TrainingList extends Component {
                 </div> 
             );
         });
-
-        return (
-            <div className="ui grid centered">
-                {trainingList}
-            </div>
-        );
     }
 
     render() {
         return ( 
-            <div>  
-                {this.renderList()}
+            <div className="ui grid centered">
+                    {this.renderList()}
             </div>
         );
     }
@@ -38,4 +35,4 @@ const mapStateToProps = state => {
     return { trainings: state.trainings };
 };
 
-export default connect(mapStateToProps, { selectTraining })(TrainingList);
+export default connect(mapStateToProps, { selectTraining, fetchTrainings })(TrainingList);

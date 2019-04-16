@@ -1,5 +1,6 @@
 import React from 'react';
 import { connect } from 'react-redux';
+import './TrainingDetail.scss';
 
 const TrainingDetail = ({ training }) => {
     if (!training) {
@@ -7,12 +8,10 @@ const TrainingDetail = ({ training }) => {
     }
 
     return (
-        <div className="ui container grid">
-            <div className="ui row">
-                <h4>{training.title}</h4>
+        <div id="training-detail" className="ui main text">
+            <h1 className="ui header">Semantic UI Fixed Template</h1>
 
-                <p>Autheur: {training.author}</p>
-            </div>
+            <div className="meta">Autheur: {training.author}</div>
         </div>
     );
 };

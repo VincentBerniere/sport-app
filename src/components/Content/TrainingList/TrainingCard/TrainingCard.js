@@ -5,15 +5,10 @@ class TrainingCard extends Component {
         return ( 
             <div className="ui card">
                 <div className="content">
-                    <i className="right floated like icon"></i>
-                    <i className="right floated star icon"></i>
-
                     <div className="header">{this.props.training.title}</div>
 
                     <div className="description">
-                        <p>
                         Comment prendre de la masse musculaire ? Les charges à déplacer et les rythmes d'exécution sont différents selon le but visé (esthétique, puissance, maintien d'un métabolisme basal élevé)
-                        </p>
                     </div>
                 </div>
                     
