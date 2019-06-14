@@ -1,8 +1,9 @@
 import { combineReducers } from 'redux';
 import trainingsReducer from './trainingsReducer';
+import * as constants from '../actions/constants';
 
 const selectedTrainingReducer = (selectedTraining = null, action) => {
-    if (action.type === 'TRAINING_SELECTED') {
+    if (action.type === constants.TRAINING_SELECTED) {
         return action.payload;
     }
 

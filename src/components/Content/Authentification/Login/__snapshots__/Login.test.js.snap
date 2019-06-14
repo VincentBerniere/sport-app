@@ -1,0 +1,598 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Login renders correctly 1`] = `
+ShallowWrapper {
+  Symbol(enzyme.__root__): [Circular],
+  Symbol(enzyme.__unrendered__): <Login />,
+  Symbol(enzyme.__renderer__): Object {
+    "batchedUpdates": [Function],
+    "checkPropTypes": [Function],
+    "getNode": [Function],
+    "render": [Function],
+    "simulateError": [Function],
+    "simulateEvent": [Function],
+    "unmount": [Function],
+  },
+  Symbol(enzyme.__node__): Object {
+    "instance": null,
+    "key": undefined,
+    "nodeType": "host",
+    "props": Object {
+      "children": Array [
+        <h1
+          className="ui header"
+        >
+          Login
+        </h1>,
+        <div
+          className="ui segment"
+        >
+          <form
+            className="ui form"
+            onSubmit={[Function]}
+          >
+            <div
+              className="field"
+            >
+              <label>
+                Adresse e-mail
+              </label>
+              <input
+                id="email"
+                onChange={[Function]}
+                required={true}
+                type="email"
+              />
+            </div>
+            <div
+              className="field"
+            >
+              <label>
+                Mot de passe
+              </label>
+              <input
+                id="password"
+                onChange={[Function]}
+                required={true}
+                type="password"
+              />
+            </div>
+            <button
+              className="ui primary button"
+              type="submit"
+            >
+              Connexion
+            </button>
+          </form>
+        </div>,
+      ],
+    },
+    "ref": null,
+    "rendered": Array [
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": "Login",
+          "className": "ui header",
+        },
+        "ref": null,
+        "rendered": "Login",
+        "type": "h1",
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": <form
+            className="ui form"
+            onSubmit={[Function]}
+          >
+            <div
+              className="field"
+            >
+              <label>
+                Adresse e-mail
+              </label>
+              <input
+                id="email"
+                onChange={[Function]}
+                required={true}
+                type="email"
+              />
+            </div>
+            <div
+              className="field"
+            >
+              <label>
+                Mot de passe
+              </label>
+              <input
+                id="password"
+                onChange={[Function]}
+                required={true}
+                type="password"
+              />
+            </div>
+            <button
+              className="ui primary button"
+              type="submit"
+            >
+              Connexion
+            </button>
+          </form>,
+          "className": "ui segment",
+        },
+        "ref": null,
+        "rendered": Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": Array [
+              <div
+                className="field"
+              >
+                <label>
+                  Adresse e-mail
+                </label>
+                <input
+                  id="email"
+                  onChange={[Function]}
+                  required={true}
+                  type="email"
+                />
+              </div>,
+              <div
+                className="field"
+              >
+                <label>
+                  Mot de passe
+                </label>
+                <input
+                  id="password"
+                  onChange={[Function]}
+                  required={true}
+                  type="password"
+                />
+              </div>,
+              <button
+                className="ui primary button"
+                type="submit"
+              >
+                Connexion
+              </button>,
+            ],
+            "className": "ui form",
+            "onSubmit": [Function],
+          },
+          "ref": null,
+          "rendered": Array [
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": Array [
+                  <label>
+                    Adresse e-mail
+                  </label>,
+                  <input
+                    id="email"
+                    onChange={[Function]}
+                    required={true}
+                    type="email"
+                  />,
+                ],
+                "className": "field",
+              },
+              "ref": null,
+              "rendered": Array [
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "host",
+                  "props": Object {
+                    "children": "Adresse e-mail",
+                  },
+                  "ref": null,
+                  "rendered": "Adresse e-mail",
+                  "type": "label",
+                },
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "host",
+                  "props": Object {
+                    "id": "email",
+                    "onChange": [Function],
+                    "required": true,
+                    "type": "email",
+                  },
+                  "ref": null,
+                  "rendered": null,
+                  "type": "input",
+                },
+              ],
+              "type": "div",
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": Array [
+                  <label>
+                    Mot de passe
+                  </label>,
+                  <input
+                    id="password"
+                    onChange={[Function]}
+                    required={true}
+                    type="password"
+                  />,
+                ],
+                "className": "field",
+              },
+              "ref": null,
+              "rendered": Array [
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "host",
+                  "props": Object {
+                    "children": "Mot de passe",
+                  },
+                  "ref": null,
+                  "rendered": "Mot de passe",
+                  "type": "label",
+                },
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "host",
+                  "props": Object {
+                    "id": "password",
+                    "onChange": [Function],
+                    "required": true,
+                    "type": "password",
+                  },
+                  "ref": null,
+                  "rendered": null,
+                  "type": "input",
+                },
+              ],
+              "type": "div",
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": "Connexion",
+                "className": "ui primary button",
+                "type": "submit",
+              },
+              "ref": null,
+              "rendered": "Connexion",
+              "type": "button",
+            },
+          ],
+          "type": "form",
+        },
+        "type": "div",
+      },
+    ],
+    "type": "div",
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "host",
+      "props": Object {
+        "children": Array [
+          <h1
+            className="ui header"
+          >
+            Login
+          </h1>,
+          <div
+            className="ui segment"
+          >
+            <form
+              className="ui form"
+              onSubmit={[Function]}
+            >
+              <div
+                className="field"
+              >
+                <label>
+                  Adresse e-mail
+                </label>
+                <input
+                  id="email"
+                  onChange={[Function]}
+                  required={true}
+                  type="email"
+                />
+              </div>
+              <div
+                className="field"
+              >
+                <label>
+                  Mot de passe
+                </label>
+                <input
+                  id="password"
+                  onChange={[Function]}
+                  required={true}
+                  type="password"
+                />
+              </div>
+              <button
+                className="ui primary button"
+                type="submit"
+              >
+                Connexion
+              </button>
+            </form>
+          </div>,
+        ],
+      },
+      "ref": null,
+      "rendered": Array [
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": "Login",
+            "className": "ui header",
+          },
+          "ref": null,
+          "rendered": "Login",
+          "type": "h1",
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": <form
+              className="ui form"
+              onSubmit={[Function]}
+            >
+              <div
+                className="field"
+              >
+                <label>
+                  Adresse e-mail
+                </label>
+                <input
+                  id="email"
+                  onChange={[Function]}
+                  required={true}
+                  type="email"
+                />
+              </div>
+              <div
+                className="field"
+              >
+                <label>
+                  Mot de passe
+                </label>
+                <input
+                  id="password"
+                  onChange={[Function]}
+                  required={true}
+                  type="password"
+                />
+              </div>
+              <button
+                className="ui primary button"
+                type="submit"
+              >
+                Connexion
+              </button>
+            </form>,
+            "className": "ui segment",
+          },
+          "ref": null,
+          "rendered": Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": Array [
+                <div
+                  className="field"
+                >
+                  <label>
+                    Adresse e-mail
+                  </label>
+                  <input
+                    id="email"
+                    onChange={[Function]}
+                    required={true}
+                    type="email"
+                  />
+                </div>,
+                <div
+                  className="field"
+                >
+                  <label>
+                    Mot de passe
+                  </label>
+                  <input
+                    id="password"
+                    onChange={[Function]}
+                    required={true}
+                    type="password"
+                  />
+                </div>,
+                <button
+                  className="ui primary button"
+                  type="submit"
+                >
+                  Connexion
+                </button>,
+              ],
+              "className": "ui form",
+              "onSubmit": [Function],
+            },
+            "ref": null,
+            "rendered": Array [
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": Array [
+                    <label>
+                      Adresse e-mail
+                    </label>,
+                    <input
+                      id="email"
+                      onChange={[Function]}
+                      required={true}
+                      type="email"
+                    />,
+                  ],
+                  "className": "field",
+                },
+                "ref": null,
+                "rendered": Array [
+                  Object {
+                    "instance": null,
+                    "key": undefined,
+                    "nodeType": "host",
+                    "props": Object {
+                      "children": "Adresse e-mail",
+                    },
+                    "ref": null,
+                    "rendered": "Adresse e-mail",
+                    "type": "label",
+                  },
+                  Object {
+                    "instance": null,
+                    "key": undefined,
+                    "nodeType": "host",
+                    "props": Object {
+                      "id": "email",
+                      "onChange": [Function],
+                      "required": true,
+                      "type": "email",
+                    },
+                    "ref": null,
+                    "rendered": null,
+                    "type": "input",
+                  },
+                ],
+                "type": "div",
+              },
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": Array [
+                    <label>
+                      Mot de passe
+                    </label>,
+                    <input
+                      id="password"
+                      onChange={[Function]}
+                      required={true}
+                      type="password"
+                    />,
+                  ],
+                  "className": "field",
+                },
+                "ref": null,
+                "rendered": Array [
+                  Object {
+                    "instance": null,
+                    "key": undefined,
+                    "nodeType": "host",
+                    "props": Object {
+                      "children": "Mot de passe",
+                    },
+                    "ref": null,
+                    "rendered": "Mot de passe",
+                    "type": "label",
+                  },
+                  Object {
+                    "instance": null,
+                    "key": undefined,
+                    "nodeType": "host",
+                    "props": Object {
+                      "id": "password",
+                      "onChange": [Function],
+                      "required": true,
+                      "type": "password",
+                    },
+                    "ref": null,
+                    "rendered": null,
+                    "type": "input",
+                  },
+                ],
+                "type": "div",
+              },
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": "Connexion",
+                  "className": "ui primary button",
+                  "type": "submit",
+                },
+                "ref": null,
+                "rendered": "Connexion",
+                "type": "button",
+              },
+            ],
+            "type": "form",
+          },
+          "type": "div",
+        },
+      ],
+      "type": "div",
+    },
+  ],
+  Symbol(enzyme.__options__): Object {
+    "adapter": ReactSixteenAdapter {
+      "options": Object {
+        "enableComponentDidUpdateOnSetState": true,
+        "legacyContextMode": "parent",
+        "lifecycles": Object {
+          "componentDidUpdate": Object {
+            "onSetState": true,
+          },
+          "getChildContext": Object {
+            "calledByRenderer": false,
+          },
+          "getDerivedStateFromError": true,
+          "getDerivedStateFromProps": Object {
+            "hasShouldComponentUpdateBug": false,
+          },
+          "getSnapshotBeforeUpdate": true,
+          "setState": Object {
+            "skipsComponentDidUpdateOnNullish": true,
+          },
+        },
+      },
+    },
+    "disableLifecycleMethods": true,
+    Symbol(enzyme.__providerValues__): undefined,
+  },
+  Symbol(enzyme.__providerValues__): Map {},
+}
+`;
+
+exports[`Login when typing into the login inputs update the email in \`state\`: test@gmail.com 1`] = `"test@gmail.com"`;
+
+exports[`Login when typing into the login inputs update the password in \`state\`: 123456789 1`] = `"123456789"`;

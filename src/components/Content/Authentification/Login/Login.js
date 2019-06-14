@@ -1,6 +1,12 @@
 import React, { Component } from 'react';
 
 class Login extends Component {
+    constructor() {
+        super();
+
+        this.state = { email: '', password: '' };
+    }
+
     onLoginFormSubmit = event => {
         event.preventDefault();
     }
@@ -14,13 +20,15 @@ class Login extends Component {
                     <form className="ui form" onSubmit={this.onLoginFormSubmit}>
                         <div className="field">
                             <label>Adresse e-mail</label>
-                            <input type="email" required />
+                            <input id="email" type="email" onChange={event => this.setState({ email: event.target.value })} required />
                         </div>
 
                         <div className="field">
                             <label>Mot de passe</label>
-                            <input type="password" required />
+                            <input id="password" type="password" onChange={event => this.setState({ password: event.target.value })} required />
                         </div>
+
+                        <button className="ui primary button" type="submit">Connexion</button>
                     </form>
                 </div>
             </div>

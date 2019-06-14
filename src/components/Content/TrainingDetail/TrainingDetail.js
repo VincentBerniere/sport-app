@@ -17,7 +17,6 @@ const TrainingDetail = ({ training }) => {
 };
 
 const mapStateToProps = state => {
-    console.log(state);
     return { training: state.selectedTraining };
 };
 

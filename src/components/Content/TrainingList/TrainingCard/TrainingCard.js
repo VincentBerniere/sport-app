@@ -27,4 +27,8 @@ class TrainingCard extends Component {
     }
 }
 
+TrainingCard.defaultProps = {
+    training: {}
+}
+
 export default TrainingCard;

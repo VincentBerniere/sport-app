@@ -28,9 +28,9 @@ class Menu extends Component {
                             <Search />
                         </div>
                         <div className="item">
-                            <Link className="ui inverted button">Connexion</Link>
+                            <Link to="/signin" className="ui inverted button">Connexion</Link>
 
-                            <Link id="sign-up" className="ui inverted button">Inscription</Link>
+                            <Link to="/signup" id="sign-up" className="ui inverted button">Inscription</Link>
                         </div>
                     </div>
                 </div>

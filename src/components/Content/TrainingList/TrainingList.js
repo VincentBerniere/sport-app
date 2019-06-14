@@ -1,7 +1,9 @@
 import React, { Component } from 'react';
 import { connect } from 'react-redux';
+import { Link } from 'react-router-dom';
 import { selectTraining, fetchTrainings } from '../../../actions';
 import TrainingCard from './TrainingCard/TrainingCard';
+import TrainingDetail from '../TrainingDetail/TrainingDetail';
 
 class TrainingList extends Component {
     componentDidMount() {
@@ -12,7 +14,7 @@ class TrainingList extends Component {
         return this.props.trainings.map(training => {
             return (
                 <div key={training.id} className="sixteen wide mobile six wide tablet four wide computer column">
-                    <div onClick={() => this.props.selectTraining(training)}>
+                    <div className="training-card" onClick={() => this.props.selectTraining(training)}>
                         <TrainingCard
                             training={training}
                         />
@@ -25,7 +27,17 @@ class TrainingList extends Component {
     render() {
         return (
             <div className="ui centered grid">
+                <div className="row">
+                    <Link to="/trainings/new">
+                        <button className="ui primary button">
+                            Créer un entraînement
+                        </button>
+                    </Link>
+                </div>
+
                 {this.renderList()}
+
+                <TrainingDetail />
             </div>
         );
     }

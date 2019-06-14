@@ -18,6 +18,7 @@ class App extends Component {
 
           <div id="content">
             <Route path="/" exact component={Authentification} />
+            <Route path="/signin" exact component={Authentification} />
             <Route path="/trainings" exact component={TrainingList} />
             <Route path="/trainings/new" exact component={TrainingCreate} />
             <Route path="/trainings/edit" exact component={TrainingList} />

@@ -1,0 +1,412 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`TrainingCard renders correctly 1`] = `
+ShallowWrapper {
+  Symbol(enzyme.__root__): [Circular],
+  Symbol(enzyme.__unrendered__): <TrainingCard
+    training={Object {}}
+  />,
+  Symbol(enzyme.__renderer__): Object {
+    "batchedUpdates": [Function],
+    "checkPropTypes": [Function],
+    "getNode": [Function],
+    "render": [Function],
+    "simulateError": [Function],
+    "simulateEvent": [Function],
+    "unmount": [Function],
+  },
+  Symbol(enzyme.__node__): Object {
+    "instance": null,
+    "key": undefined,
+    "nodeType": "host",
+    "props": Object {
+      "children": Array [
+        <div
+          className="content"
+        >
+          <div
+            className="header"
+          />
+          <div
+            className="description"
+          >
+            Comment prendre de la masse musculaire ? Les charges à déplacer et les rythmes d'exécution sont différents selon le but visé (esthétique, puissance, maintien d'un métabolisme basal élevé)
+          </div>
+        </div>,
+        <div
+          className="extra content"
+        >
+          <span
+            className="left floated like"
+          >
+            <i
+              className="like icon"
+            />
+            Like
+          </span>
+          <span
+            className="right floated star"
+          >
+            <i
+              className="star icon"
+            />
+            Favorite
+          </span>
+        </div>,
+      ],
+      "className": "ui card",
+    },
+    "ref": null,
+    "rendered": Array [
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": Array [
+            <div
+              className="header"
+            />,
+            <div
+              className="description"
+            >
+              Comment prendre de la masse musculaire ? Les charges à déplacer et les rythmes d'exécution sont différents selon le but visé (esthétique, puissance, maintien d'un métabolisme basal élevé)
+            </div>,
+          ],
+          "className": "content",
+        },
+        "ref": null,
+        "rendered": Array [
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": undefined,
+              "className": "header",
+            },
+            "ref": null,
+            "rendered": null,
+            "type": "div",
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": "Comment prendre de la masse musculaire ? Les charges à déplacer et les rythmes d'exécution sont différents selon le but visé (esthétique, puissance, maintien d'un métabolisme basal élevé)",
+              "className": "description",
+            },
+            "ref": null,
+            "rendered": "Comment prendre de la masse musculaire ? Les charges à déplacer et les rythmes d'exécution sont différents selon le but visé (esthétique, puissance, maintien d'un métabolisme basal élevé)",
+            "type": "div",
+          },
+        ],
+        "type": "div",
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": Array [
+            <span
+              className="left floated like"
+            >
+              <i
+                className="like icon"
+              />
+              Like
+            </span>,
+            <span
+              className="right floated star"
+            >
+              <i
+                className="star icon"
+              />
+              Favorite
+            </span>,
+          ],
+          "className": "extra content",
+        },
+        "ref": null,
+        "rendered": Array [
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": Array [
+                <i
+                  className="like icon"
+                />,
+                "Like",
+              ],
+              "className": "left floated like",
+            },
+            "ref": null,
+            "rendered": Array [
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "className": "like icon",
+                },
+                "ref": null,
+                "rendered": null,
+                "type": "i",
+              },
+              "Like",
+            ],
+            "type": "span",
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": Array [
+                <i
+                  className="star icon"
+                />,
+                "Favorite",
+              ],
+              "className": "right floated star",
+            },
+            "ref": null,
+            "rendered": Array [
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "className": "star icon",
+                },
+                "ref": null,
+                "rendered": null,
+                "type": "i",
+              },
+              "Favorite",
+            ],
+            "type": "span",
+          },
+        ],
+        "type": "div",
+      },
+    ],
+    "type": "div",
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "host",
+      "props": Object {
+        "children": Array [
+          <div
+            className="content"
+          >
+            <div
+              className="header"
+            />
+            <div
+              className="description"
+            >
+              Comment prendre de la masse musculaire ? Les charges à déplacer et les rythmes d'exécution sont différents selon le but visé (esthétique, puissance, maintien d'un métabolisme basal élevé)
+            </div>
+          </div>,
+          <div
+            className="extra content"
+          >
+            <span
+              className="left floated like"
+            >
+              <i
+                className="like icon"
+              />
+              Like
+            </span>
+            <span
+              className="right floated star"
+            >
+              <i
+                className="star icon"
+              />
+              Favorite
+            </span>
+          </div>,
+        ],
+        "className": "ui card",
+      },
+      "ref": null,
+      "rendered": Array [
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": Array [
+              <div
+                className="header"
+              />,
+              <div
+                className="description"
+              >
+                Comment prendre de la masse musculaire ? Les charges à déplacer et les rythmes d'exécution sont différents selon le but visé (esthétique, puissance, maintien d'un métabolisme basal élevé)
+              </div>,
+            ],
+            "className": "content",
+          },
+          "ref": null,
+          "rendered": Array [
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": undefined,
+                "className": "header",
+              },
+              "ref": null,
+              "rendered": null,
+              "type": "div",
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": "Comment prendre de la masse musculaire ? Les charges à déplacer et les rythmes d'exécution sont différents selon le but visé (esthétique, puissance, maintien d'un métabolisme basal élevé)",
+                "className": "description",
+              },
+              "ref": null,
+              "rendered": "Comment prendre de la masse musculaire ? Les charges à déplacer et les rythmes d'exécution sont différents selon le but visé (esthétique, puissance, maintien d'un métabolisme basal élevé)",
+              "type": "div",
+            },
+          ],
+          "type": "div",
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": Array [
+              <span
+                className="left floated like"
+              >
+                <i
+                  className="like icon"
+                />
+                Like
+              </span>,
+              <span
+                className="right floated star"
+              >
+                <i
+                  className="star icon"
+                />
+                Favorite
+              </span>,
+            ],
+            "className": "extra content",
+          },
+          "ref": null,
+          "rendered": Array [
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": Array [
+                  <i
+                    className="like icon"
+                  />,
+                  "Like",
+                ],
+                "className": "left floated like",
+              },
+              "ref": null,
+              "rendered": Array [
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "host",
+                  "props": Object {
+                    "className": "like icon",
+                  },
+                  "ref": null,
+                  "rendered": null,
+                  "type": "i",
+                },
+                "Like",
+              ],
+              "type": "span",
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": Array [
+                  <i
+                    className="star icon"
+                  />,
+                  "Favorite",
+                ],
+                "className": "right floated star",
+              },
+              "ref": null,
+              "rendered": Array [
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "host",
+                  "props": Object {
+                    "className": "star icon",
+                  },
+                  "ref": null,
+                  "rendered": null,
+                  "type": "i",
+                },
+                "Favorite",
+              ],
+              "type": "span",
+            },
+          ],
+          "type": "div",
+        },
+      ],
+      "type": "div",
+    },
+  ],
+  Symbol(enzyme.__options__): Object {
+    "adapter": ReactSixteenAdapter {
+      "options": Object {
+        "enableComponentDidUpdateOnSetState": true,
+        "legacyContextMode": "parent",
+        "lifecycles": Object {
+          "componentDidUpdate": Object {
+            "onSetState": true,
+          },
+          "getChildContext": Object {
+            "calledByRenderer": false,
+          },
+          "getDerivedStateFromError": true,
+          "getDerivedStateFromProps": Object {
+            "hasShouldComponentUpdateBug": false,
+          },
+          "getSnapshotBeforeUpdate": true,
+          "setState": Object {
+            "skipsComponentDidUpdateOnNullish": true,
+          },
+        },
+      },
+    },
+    "disableLifecycleMethods": true,
+    Symbol(enzyme.__providerValues__): undefined,
+  },
+  Symbol(enzyme.__providerValues__): Map {},
+}
+`;
