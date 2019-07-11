@@ -23,6 +23,7 @@ ShallowWrapper {
       "children": Array [
         <div
           className="content"
+          onClick={[Function]}
         >
           <div
             className="header"
@@ -30,7 +31,7 @@ ShallowWrapper {
           <div
             className="description"
           >
-            Comment prendre de la masse musculaire ? Les charges à déplacer et les rythmes d'exécution sont différents selon le but visé (esthétique, puissance, maintien d'un métabolisme basal élevé)
+            
           </div>
         </div>,
         <div
@@ -53,8 +54,9 @@ ShallowWrapper {
             Favorite
           </span>
         </div>,
+        undefined,
       ],
-      "className": "ui card",
+      "className": "training-card ui card",
     },
     "ref": null,
     "rendered": Array [
@@ -70,10 +72,11 @@ ShallowWrapper {
             <div
               className="description"
             >
-              Comment prendre de la masse musculaire ? Les charges à déplacer et les rythmes d'exécution sont différents selon le but visé (esthétique, puissance, maintien d'un métabolisme basal élevé)
+              
             </div>,
           ],
           "className": "content",
+          "onClick": [Function],
         },
         "ref": null,
         "rendered": Array [
@@ -94,11 +97,11 @@ ShallowWrapper {
             "key": undefined,
             "nodeType": "host",
             "props": Object {
-              "children": "Comment prendre de la masse musculaire ? Les charges à déplacer et les rythmes d'exécution sont différents selon le but visé (esthétique, puissance, maintien d'un métabolisme basal élevé)",
+              "children": "",
               "className": "description",
             },
             "ref": null,
-            "rendered": "Comment prendre de la masse musculaire ? Les charges à déplacer et les rythmes d'exécution sont différents selon le but visé (esthétique, puissance, maintien d'un métabolisme basal élevé)",
+            "rendered": "",
             "type": "div",
           },
         ],
@@ -194,6 +197,7 @@ ShallowWrapper {
         ],
         "type": "div",
       },
+      undefined,
     ],
     "type": "div",
   },
@@ -206,6 +210,7 @@ ShallowWrapper {
         "children": Array [
           <div
             className="content"
+            onClick={[Function]}
           >
             <div
               className="header"
@@ -213,7 +218,7 @@ ShallowWrapper {
             <div
               className="description"
             >
-              Comment prendre de la masse musculaire ? Les charges à déplacer et les rythmes d'exécution sont différents selon le but visé (esthétique, puissance, maintien d'un métabolisme basal élevé)
+              
             </div>
           </div>,
           <div
@@ -236,8 +241,9 @@ ShallowWrapper {
               Favorite
             </span>
           </div>,
+          undefined,
         ],
-        "className": "ui card",
+        "className": "training-card ui card",
       },
       "ref": null,
       "rendered": Array [
@@ -253,10 +259,11 @@ ShallowWrapper {
               <div
                 className="description"
               >
-                Comment prendre de la masse musculaire ? Les charges à déplacer et les rythmes d'exécution sont différents selon le but visé (esthétique, puissance, maintien d'un métabolisme basal élevé)
+                
               </div>,
             ],
             "className": "content",
+            "onClick": [Function],
           },
           "ref": null,
           "rendered": Array [
@@ -277,11 +284,11 @@ ShallowWrapper {
               "key": undefined,
               "nodeType": "host",
               "props": Object {
-                "children": "Comment prendre de la masse musculaire ? Les charges à déplacer et les rythmes d'exécution sont différents selon le but visé (esthétique, puissance, maintien d'un métabolisme basal élevé)",
+                "children": "",
                 "className": "description",
               },
               "ref": null,
-              "rendered": "Comment prendre de la masse musculaire ? Les charges à déplacer et les rythmes d'exécution sont différents selon le but visé (esthétique, puissance, maintien d'un métabolisme basal élevé)",
+              "rendered": "",
               "type": "div",
             },
           ],
@@ -377,6 +384,7 @@ ShallowWrapper {
           ],
           "type": "div",
         },
+        undefined,
       ],
       "type": "div",
     },

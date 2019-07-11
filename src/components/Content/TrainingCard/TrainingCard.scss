@@ -1,0 +1,9 @@
+.training-card {
+    >.content:first-child {
+        cursor: pointer;
+    }
+}
+
+.ui.cards > .card, .ui.card {
+    width: 250px;
+}

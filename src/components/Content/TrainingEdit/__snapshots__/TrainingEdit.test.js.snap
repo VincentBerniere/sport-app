@@ -1,9 +1,9 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`TrainingCreate renders correctly 1`] = `
+exports[`TrainingEdit renders correctly 1`] = `
 ShallowWrapper {
   Symbol(enzyme.__root__): [Circular],
-  Symbol(enzyme.__unrendered__): <TrainingCreate />,
+  Symbol(enzyme.__unrendered__): <TrainingEdit />,
   Symbol(enzyme.__renderer__): Object {
     "batchedUpdates": [Function],
     "checkPropTypes": [Function],
@@ -49,25 +49,11 @@ ShallowWrapper {
             required={true}
           />
         </div>,
-        <div
-          className="field"
-        >
-          <h4
-            className="ui header"
-          >
-            Excercice
-             :
-          </h4>
-          
-          <i
-            className="plus circle icon"
-            onClick={[Function]}
-          />
-        </div>,
         <button
           className="ui primary button"
+          type="submit"
         >
-          Créer
+          Sauvegarder
         </button>,
         undefined,
       ],
@@ -122,6 +108,7 @@ ShallowWrapper {
               "placeholder": "Titre",
               "required": true,
               "type": "text",
+              "value": undefined,
             },
             "ref": null,
             "rendered": null,
@@ -172,6 +159,7 @@ ShallowWrapper {
               "onChange": [Function],
               "placeholder": "Description",
               "required": true,
+              "value": undefined,
             },
             "ref": null,
             "rendered": null,
@@ -185,67 +173,12 @@ ShallowWrapper {
         "key": undefined,
         "nodeType": "host",
         "props": Object {
-          "children": Array [
-            <h4
-              className="ui header"
-            >
-              Excercice
-               :
-            </h4>,
-            "",
-            <i
-              className="plus circle icon"
-              onClick={[Function]}
-            />,
-          ],
-          "className": "field",
-        },
-        "ref": null,
-        "rendered": Array [
-          Object {
-            "instance": null,
-            "key": undefined,
-            "nodeType": "host",
-            "props": Object {
-              "children": Array [
-                "Excercice",
-                " :",
-              ],
-              "className": "ui header",
-            },
-            "ref": null,
-            "rendered": Array [
-              "Excercice",
-              " :",
-            ],
-            "type": "h4",
-          },
-          "",
-          Object {
-            "instance": null,
-            "key": undefined,
-            "nodeType": "host",
-            "props": Object {
-              "className": "plus circle icon",
-              "onClick": [Function],
-            },
-            "ref": null,
-            "rendered": null,
-            "type": "i",
-          },
-        ],
-        "type": "div",
-      },
-      Object {
-        "instance": null,
-        "key": undefined,
-        "nodeType": "host",
-        "props": Object {
-          "children": "Créer",
+          "children": "Sauvegarder",
           "className": "ui primary button",
+          "type": "submit",
         },
         "ref": null,
-        "rendered": "Créer",
+        "rendered": "Sauvegarder",
         "type": "button",
       },
       undefined,
@@ -289,25 +222,11 @@ ShallowWrapper {
               required={true}
             />
           </div>,
-          <div
-            className="field"
-          >
-            <h4
-              className="ui header"
-            >
-              Excercice
-               :
-            </h4>
-            
-            <i
-              className="plus circle icon"
-              onClick={[Function]}
-            />
-          </div>,
           <button
             className="ui primary button"
+            type="submit"
           >
-            Créer
+            Sauvegarder
           </button>,
           undefined,
         ],
@@ -362,6 +281,7 @@ ShallowWrapper {
                 "placeholder": "Titre",
                 "required": true,
                 "type": "text",
+                "value": undefined,
               },
               "ref": null,
               "rendered": null,
@@ -412,6 +332,7 @@ ShallowWrapper {
                 "onChange": [Function],
                 "placeholder": "Description",
                 "required": true,
+                "value": undefined,
               },
               "ref": null,
               "rendered": null,
@@ -425,67 +346,12 @@ ShallowWrapper {
           "key": undefined,
           "nodeType": "host",
           "props": Object {
-            "children": Array [
-              <h4
-                className="ui header"
-              >
-                Excercice
-                 :
-              </h4>,
-              "",
-              <i
-                className="plus circle icon"
-                onClick={[Function]}
-              />,
-            ],
-            "className": "field",
-          },
-          "ref": null,
-          "rendered": Array [
-            Object {
-              "instance": null,
-              "key": undefined,
-              "nodeType": "host",
-              "props": Object {
-                "children": Array [
-                  "Excercice",
-                  " :",
-                ],
-                "className": "ui header",
-              },
-              "ref": null,
-              "rendered": Array [
-                "Excercice",
-                " :",
-              ],
-              "type": "h4",
-            },
-            "",
-            Object {
-              "instance": null,
-              "key": undefined,
-              "nodeType": "host",
-              "props": Object {
-                "className": "plus circle icon",
-                "onClick": [Function],
-              },
-              "ref": null,
-              "rendered": null,
-              "type": "i",
-            },
-          ],
-          "type": "div",
-        },
-        Object {
-          "instance": null,
-          "key": undefined,
-          "nodeType": "host",
-          "props": Object {
-            "children": "Créer",
+            "children": "Sauvegarder",
             "className": "ui primary button",
+            "type": "submit",
           },
           "ref": null,
-          "rendered": "Créer",
+          "rendered": "Sauvegarder",
           "type": "button",
         },
         undefined,
@@ -523,6 +389,6 @@ ShallowWrapper {
 }
 `;
 
-exports[`TrainingCreate when typing into the create form inputs update the description \`state\` correctly: Sed ut perspiciatis unde omnis is ... 1`] = `"Sed ut perspiciatis unde omnis is ..."`;
+exports[`TrainingEdit when typing into the editing form inputs update the description \`state\` correctly: Sed ut perspiciatis unde omnis is ... 1`] = `undefined`;
 
-exports[`TrainingCreate when typing into the create form inputs update the title \`state\` correctly: Training 1 1`] = `"Training 1"`;
+exports[`TrainingEdit when typing into the editing form inputs update the title \`state\` correctly: Training 1 1`] = `undefined`;

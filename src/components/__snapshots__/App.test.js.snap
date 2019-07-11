@@ -18,263 +18,8 @@ ShallowWrapper {
     "key": undefined,
     "nodeType": "host",
     "props": Object {
-      "children": <BrowserRouter>
-        <Header />
-        <div
-          id="content"
-        >
-          <Route
-            component={[Function]}
-            exact={true}
-            path="/"
-          />
-          <Route
-            component={[Function]}
-            exact={true}
-            path="/signin"
-          />
-          <Route
-            component={[Function]}
-            exact={true}
-            path="/trainings"
-          />
-          <Route
-            component={[Function]}
-            exact={true}
-            path="/trainings/new"
-          />
-          <Route
-            component={[Function]}
-            exact={true}
-            path="/trainings/edit"
-          />
-          <Route
-            component={[Function]}
-            exact={true}
-            path="/trainings/delete"
-          />
-          <Route
-            component={[Function]}
-            exact={true}
-            path="/trainings/detail"
-          />
-        </div>
-      </BrowserRouter>,
-      "className": "ui container",
-      "id": "app",
-    },
-    "ref": null,
-    "rendered": Object {
-      "instance": null,
-      "key": undefined,
-      "nodeType": "class",
-      "props": Object {
-        "children": Array [
-          <Header />,
-          <div
-            id="content"
-          >
-            <Route
-              component={[Function]}
-              exact={true}
-              path="/"
-            />
-            <Route
-              component={[Function]}
-              exact={true}
-              path="/signin"
-            />
-            <Route
-              component={[Function]}
-              exact={true}
-              path="/trainings"
-            />
-            <Route
-              component={[Function]}
-              exact={true}
-              path="/trainings/new"
-            />
-            <Route
-              component={[Function]}
-              exact={true}
-              path="/trainings/edit"
-            />
-            <Route
-              component={[Function]}
-              exact={true}
-              path="/trainings/delete"
-            />
-            <Route
-              component={[Function]}
-              exact={true}
-              path="/trainings/detail"
-            />
-          </div>,
-        ],
-      },
-      "ref": null,
-      "rendered": Array [
-        Object {
-          "instance": null,
-          "key": undefined,
-          "nodeType": "function",
-          "props": Object {},
-          "ref": null,
-          "rendered": null,
-          "type": [Function],
-        },
-        Object {
-          "instance": null,
-          "key": undefined,
-          "nodeType": "host",
-          "props": Object {
-            "children": Array [
-              <Route
-                component={[Function]}
-                exact={true}
-                path="/"
-              />,
-              <Route
-                component={[Function]}
-                exact={true}
-                path="/signin"
-              />,
-              <Route
-                component={[Function]}
-                exact={true}
-                path="/trainings"
-              />,
-              <Route
-                component={[Function]}
-                exact={true}
-                path="/trainings/new"
-              />,
-              <Route
-                component={[Function]}
-                exact={true}
-                path="/trainings/edit"
-              />,
-              <Route
-                component={[Function]}
-                exact={true}
-                path="/trainings/delete"
-              />,
-              <Route
-                component={[Function]}
-                exact={true}
-                path="/trainings/detail"
-              />,
-            ],
-            "id": "content",
-          },
-          "ref": null,
-          "rendered": Array [
-            Object {
-              "instance": null,
-              "key": undefined,
-              "nodeType": "class",
-              "props": Object {
-                "component": [Function],
-                "exact": true,
-                "path": "/",
-              },
-              "ref": null,
-              "rendered": null,
-              "type": [Function],
-            },
-            Object {
-              "instance": null,
-              "key": undefined,
-              "nodeType": "class",
-              "props": Object {
-                "component": [Function],
-                "exact": true,
-                "path": "/signin",
-              },
-              "ref": null,
-              "rendered": null,
-              "type": [Function],
-            },
-            Object {
-              "instance": null,
-              "key": undefined,
-              "nodeType": "class",
-              "props": Object {
-                "component": [Function],
-                "exact": true,
-                "path": "/trainings",
-              },
-              "ref": null,
-              "rendered": null,
-              "type": [Function],
-            },
-            Object {
-              "instance": null,
-              "key": undefined,
-              "nodeType": "class",
-              "props": Object {
-                "component": [Function],
-                "exact": true,
-                "path": "/trainings/new",
-              },
-              "ref": null,
-              "rendered": null,
-              "type": [Function],
-            },
-            Object {
-              "instance": null,
-              "key": undefined,
-              "nodeType": "class",
-              "props": Object {
-                "component": [Function],
-                "exact": true,
-                "path": "/trainings/edit",
-              },
-              "ref": null,
-              "rendered": null,
-              "type": [Function],
-            },
-            Object {
-              "instance": null,
-              "key": undefined,
-              "nodeType": "class",
-              "props": Object {
-                "component": [Function],
-                "exact": true,
-                "path": "/trainings/delete",
-              },
-              "ref": null,
-              "rendered": null,
-              "type": [Function],
-            },
-            Object {
-              "instance": null,
-              "key": undefined,
-              "nodeType": "class",
-              "props": Object {
-                "component": [Function],
-                "exact": true,
-                "path": "/trainings/detail",
-              },
-              "ref": null,
-              "rendered": null,
-              "type": [Function],
-            },
-          ],
-          "type": "div",
-        },
-      ],
-      "type": [Function],
-    },
-    "type": "div",
-  },
-  Symbol(enzyme.__nodes__): Array [
-    Object {
-      "instance": null,
-      "key": undefined,
-      "nodeType": "host",
-      "props": Object {
-        "children": <BrowserRouter>
+      "children": Array [
+        <BrowserRouter>
           <Header />
           <div
             id="content"
@@ -287,6 +32,11 @@ ShallowWrapper {
             <Route
               component={[Function]}
               exact={true}
+              path="/profile"
+            />
+            <Route
+              component={[Function]}
+              exact={true}
               path="/signin"
             />
             <Route
@@ -296,13 +46,16 @@ ShallowWrapper {
             />
             <Route
               component={[Function]}
+              path="/trainings/:trainingId/detail"
+            />
+            <Route
+              component={[Function]}
               exact={true}
               path="/trainings/new"
             />
             <Route
               component={[Function]}
-              exact={true}
-              path="/trainings/edit"
+              path="/trainings/:trainingId/edit"
             />
             <Route
               component={[Function]}
@@ -316,11 +69,14 @@ ShallowWrapper {
             />
           </div>
         </BrowserRouter>,
-        "className": "ui container",
-        "id": "app",
-      },
-      "ref": null,
-      "rendered": Object {
+        <Modal />,
+      ],
+      "className": "ui container",
+      "id": "app",
+    },
+    "ref": null,
+    "rendered": Array [
+      Object {
         "instance": null,
         "key": undefined,
         "nodeType": "class",
@@ -338,6 +94,11 @@ ShallowWrapper {
               <Route
                 component={[Function]}
                 exact={true}
+                path="/profile"
+              />
+              <Route
+                component={[Function]}
+                exact={true}
                 path="/signin"
               />
               <Route
@@ -347,13 +108,16 @@ ShallowWrapper {
               />
               <Route
                 component={[Function]}
+                path="/trainings/:trainingId/detail"
+              />
+              <Route
+                component={[Function]}
                 exact={true}
                 path="/trainings/new"
               />
               <Route
                 component={[Function]}
-                exact={true}
-                path="/trainings/edit"
+                path="/trainings/:trainingId/edit"
               />
               <Route
                 component={[Function]}
@@ -393,6 +157,11 @@ ShallowWrapper {
                 <Route
                   component={[Function]}
                   exact={true}
+                  path="/profile"
+                />,
+                <Route
+                  component={[Function]}
+                  exact={true}
                   path="/signin"
                 />,
                 <Route
@@ -402,13 +171,16 @@ ShallowWrapper {
                 />,
                 <Route
                   component={[Function]}
+                  path="/trainings/:trainingId/detail"
+                />,
+                <Route
+                  component={[Function]}
                   exact={true}
                   path="/trainings/new"
                 />,
                 <Route
                   component={[Function]}
-                  exact={true}
-                  path="/trainings/edit"
+                  path="/trainings/:trainingId/edit"
                 />,
                 <Route
                   component={[Function]}
@@ -433,6 +205,19 @@ ShallowWrapper {
                   "component": [Function],
                   "exact": true,
                   "path": "/",
+                },
+                "ref": null,
+                "rendered": null,
+                "type": [Function],
+              },
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "class",
+                "props": Object {
+                  "component": [Function],
+                  "exact": true,
+                  "path": "/profile",
                 },
                 "ref": null,
                 "rendered": null,
@@ -470,6 +255,18 @@ ShallowWrapper {
                 "nodeType": "class",
                 "props": Object {
                   "component": [Function],
+                  "path": "/trainings/:trainingId/detail",
+                },
+                "ref": null,
+                "rendered": null,
+                "type": [Function],
+              },
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "class",
+                "props": Object {
+                  "component": [Function],
                   "exact": true,
                   "path": "/trainings/new",
                 },
@@ -483,8 +280,7 @@ ShallowWrapper {
                 "nodeType": "class",
                 "props": Object {
                   "component": [Function],
-                  "exact": true,
-                  "path": "/trainings/edit",
+                  "path": "/trainings/:trainingId/edit",
                 },
                 "ref": null,
                 "rendered": null,
@@ -522,6 +318,334 @@ ShallowWrapper {
         ],
         "type": [Function],
       },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "function",
+        "props": Object {},
+        "ref": null,
+        "rendered": null,
+        "type": [Function],
+      },
+    ],
+    "type": "div",
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "host",
+      "props": Object {
+        "children": Array [
+          <BrowserRouter>
+            <Header />
+            <div
+              id="content"
+            >
+              <Route
+                component={[Function]}
+                exact={true}
+                path="/"
+              />
+              <Route
+                component={[Function]}
+                exact={true}
+                path="/profile"
+              />
+              <Route
+                component={[Function]}
+                exact={true}
+                path="/signin"
+              />
+              <Route
+                component={[Function]}
+                exact={true}
+                path="/trainings"
+              />
+              <Route
+                component={[Function]}
+                path="/trainings/:trainingId/detail"
+              />
+              <Route
+                component={[Function]}
+                exact={true}
+                path="/trainings/new"
+              />
+              <Route
+                component={[Function]}
+                path="/trainings/:trainingId/edit"
+              />
+              <Route
+                component={[Function]}
+                exact={true}
+                path="/trainings/delete"
+              />
+              <Route
+                component={[Function]}
+                exact={true}
+                path="/trainings/detail"
+              />
+            </div>
+          </BrowserRouter>,
+          <Modal />,
+        ],
+        "className": "ui container",
+        "id": "app",
+      },
+      "ref": null,
+      "rendered": Array [
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "class",
+          "props": Object {
+            "children": Array [
+              <Header />,
+              <div
+                id="content"
+              >
+                <Route
+                  component={[Function]}
+                  exact={true}
+                  path="/"
+                />
+                <Route
+                  component={[Function]}
+                  exact={true}
+                  path="/profile"
+                />
+                <Route
+                  component={[Function]}
+                  exact={true}
+                  path="/signin"
+                />
+                <Route
+                  component={[Function]}
+                  exact={true}
+                  path="/trainings"
+                />
+                <Route
+                  component={[Function]}
+                  path="/trainings/:trainingId/detail"
+                />
+                <Route
+                  component={[Function]}
+                  exact={true}
+                  path="/trainings/new"
+                />
+                <Route
+                  component={[Function]}
+                  path="/trainings/:trainingId/edit"
+                />
+                <Route
+                  component={[Function]}
+                  exact={true}
+                  path="/trainings/delete"
+                />
+                <Route
+                  component={[Function]}
+                  exact={true}
+                  path="/trainings/detail"
+                />
+              </div>,
+            ],
+          },
+          "ref": null,
+          "rendered": Array [
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "function",
+              "props": Object {},
+              "ref": null,
+              "rendered": null,
+              "type": [Function],
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": Array [
+                  <Route
+                    component={[Function]}
+                    exact={true}
+                    path="/"
+                  />,
+                  <Route
+                    component={[Function]}
+                    exact={true}
+                    path="/profile"
+                  />,
+                  <Route
+                    component={[Function]}
+                    exact={true}
+                    path="/signin"
+                  />,
+                  <Route
+                    component={[Function]}
+                    exact={true}
+                    path="/trainings"
+                  />,
+                  <Route
+                    component={[Function]}
+                    path="/trainings/:trainingId/detail"
+                  />,
+                  <Route
+                    component={[Function]}
+                    exact={true}
+                    path="/trainings/new"
+                  />,
+                  <Route
+                    component={[Function]}
+                    path="/trainings/:trainingId/edit"
+                  />,
+                  <Route
+                    component={[Function]}
+                    exact={true}
+                    path="/trainings/delete"
+                  />,
+                  <Route
+                    component={[Function]}
+                    exact={true}
+                    path="/trainings/detail"
+                  />,
+                ],
+                "id": "content",
+              },
+              "ref": null,
+              "rendered": Array [
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "class",
+                  "props": Object {
+                    "component": [Function],
+                    "exact": true,
+                    "path": "/",
+                  },
+                  "ref": null,
+                  "rendered": null,
+                  "type": [Function],
+                },
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "class",
+                  "props": Object {
+                    "component": [Function],
+                    "exact": true,
+                    "path": "/profile",
+                  },
+                  "ref": null,
+                  "rendered": null,
+                  "type": [Function],
+                },
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "class",
+                  "props": Object {
+                    "component": [Function],
+                    "exact": true,
+                    "path": "/signin",
+                  },
+                  "ref": null,
+                  "rendered": null,
+                  "type": [Function],
+                },
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "class",
+                  "props": Object {
+                    "component": [Function],
+                    "exact": true,
+                    "path": "/trainings",
+                  },
+                  "ref": null,
+                  "rendered": null,
+                  "type": [Function],
+                },
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "class",
+                  "props": Object {
+                    "component": [Function],
+                    "path": "/trainings/:trainingId/detail",
+                  },
+                  "ref": null,
+                  "rendered": null,
+                  "type": [Function],
+                },
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "class",
+                  "props": Object {
+                    "component": [Function],
+                    "exact": true,
+                    "path": "/trainings/new",
+                  },
+                  "ref": null,
+                  "rendered": null,
+                  "type": [Function],
+                },
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "class",
+                  "props": Object {
+                    "component": [Function],
+                    "path": "/trainings/:trainingId/edit",
+                  },
+                  "ref": null,
+                  "rendered": null,
+                  "type": [Function],
+                },
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "class",
+                  "props": Object {
+                    "component": [Function],
+                    "exact": true,
+                    "path": "/trainings/delete",
+                  },
+                  "ref": null,
+                  "rendered": null,
+                  "type": [Function],
+                },
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "class",
+                  "props": Object {
+                    "component": [Function],
+                    "exact": true,
+                    "path": "/trainings/detail",
+                  },
+                  "ref": null,
+                  "rendered": null,
+                  "type": [Function],
+                },
+              ],
+              "type": "div",
+            },
+          ],
+          "type": [Function],
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "function",
+          "props": Object {},
+          "ref": null,
+          "rendered": null,
+          "type": [Function],
+        },
+      ],
       "type": "div",
     },
   ],

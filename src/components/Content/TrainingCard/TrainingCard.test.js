@@ -10,9 +10,9 @@ describe('TrainingCard', () => {
     });
 
     it('displays the training from props', () => {
-        const training = { id: 0, title: 'Muscu', author: 'Jack' };
+        const training = { id: 0, name: 'Muscu', author: 'Jack' };
         const trainingCard = shallow(<TrainingCard training={training} />);
         
-        expect(trainingCard.find('.header').text()).toEqual(training.title);
+        expect(trainingCard.find('.header').text()).toEqual(training.name);
     });
 });

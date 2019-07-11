@@ -10,8 +10,11 @@ class Menu extends Component {
         return (
             <div className="ui fixed inverted menu">
                 <div className="ui container">
-                    <Link to="/" className="header item">
+                    <Link to="/profile" className="header item">
                         <img className="logo" alt="logo" src={faker.image.avatar()} />
+                    </Link>
+
+                    <Link to="/" className="header item">
                         SportApp
                     </Link>
 

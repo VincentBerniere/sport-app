@@ -1,16 +1,21 @@
-import { combineReducers } from 'redux';
-import trainingsReducer from './trainingsReducer';
 import * as constants from '../actions/constants';
 
-const selectedTrainingReducer = (selectedTraining = null, action) => {
-    if (action.type === constants.TRAINING_SELECTED) {
-        return action.payload;
+const initialState = {
+    modalType: null,
+    modalProps: {}
+}
+
+export default (state = initialState, action) => {
+    switch (action.type) {
+        case constants.SHOW_MODAL:
+            return {
+                modalProps: action.modalProps,
+                modalType: action.modalType,
+                type: action.type
+            }
+        case constants.HIDE_MODAL:
+            return initialState
+        default:
+            return state
     }
-
-    return selectedTraining;
-};
-
-export default combineReducers({
-    trainings: trainingsReducer,
-    selectedTraining: selectedTrainingReducer
-});
+}

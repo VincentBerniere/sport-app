@@ -3,13 +3,7 @@ import { shallow, mount } from 'enzyme';
 import TrainingCreate from './TrainingCreate';
 
 describe('TrainingCreate', () => {
-    const mockCreateTraining = jest.fn();
-
-    const props = {
-        createTraining: mockCreateTraining
-    };
-
-    let trainingCreate = shallow(<TrainingCreate {...props} />);
+    let trainingCreate = shallow(<TrainingCreate />);
 
     it('renders correctly', () => {
         expect(trainingCreate).toMatchSnapshot();
@@ -22,7 +16,7 @@ describe('TrainingCreate', () => {
         };
 
         beforeEach(() => {
-            trainingCreate = mount(<TrainingCreate {...props} />);
+            trainingCreate = mount(<TrainingCreate />);
             
             trainingCreate.find('#title').simulate('change', { target: { value: training.title } });
             trainingCreate.find('#description').simulate('change', { target: { value: training.description } });
@@ -34,12 +28,6 @@ describe('TrainingCreate', () => {
 
         it('update the description `state` correctly', () => {
             expect(trainingCreate.state().training.description).toMatchSnapshot(training.description);
-        });
-
-        it('submit form called function', () => {
-            trainingCreate.find('.ui.primary.button').simulate('click');
-
-            expect(mockCreateTraining).toHaveBeenCalled();
         });
     });
 });

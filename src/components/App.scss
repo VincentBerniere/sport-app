@@ -1,9 +1,66 @@
-@import '../shared.scss';
+@import "../shared.scss";
 
 #app {
-  font-size: 16px;
+    font-size: 16px;
 
-  #content {
-    margin-top: 5em;
-  }
+    #content {
+        margin-top: 5em;
+        margin-bottom: 5em;
+
+        #boards {
+            column-width: 250px;
+            column-gap: 15px;
+            width: 95%;
+            max-width: 100%;
+        }
+
+        div#boards .boards-element {
+            background: #fefefe;
+            margin: 0 2px 15px;
+            padding-bottom: 10px;
+            transition: opacity .4s ease-in-out;
+            display: inline-block;
+        }
+
+        div#boards .boards-element img {
+            width: 100%;
+            height: auto;
+            border-bottom: 1px solid #ccc;
+            padding-bottom: 15px;
+            margin-bottom: 5px;
+        }
+
+        div#boards .boards-element figcaption {
+            font-size: .9rem;
+            color: #444;
+            line-height: 1.5;
+        }
+
+        div#boards small {
+            font-size: 1rem;
+            float: right;
+            text-transform: uppercase;
+            color: #aaa;
+        }
+
+        div#boards small a {
+            color: #666;
+            text-decoration: none;
+            transition: .4s color;
+        }
+
+        div#boards:hover .boards-element:not(:hover) {
+            opacity: 0.4;
+        }
+
+        @media screen and (max-width: 750px) {
+            #boards {
+                column-gap: 0px;
+            }
+
+            #boards .boards-element {
+                width: 100%;
+            }
+        }
+    }
 }

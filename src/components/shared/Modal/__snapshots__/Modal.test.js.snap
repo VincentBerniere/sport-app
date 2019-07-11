@@ -1,0 +1,554 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Modal renders correctly 1`] = `
+ShallowWrapper {
+  Symbol(enzyme.__root__): [Circular],
+  Symbol(enzyme.__unrendered__): <Modal />,
+  Symbol(enzyme.__renderer__): Object {
+    "batchedUpdates": [Function],
+    "checkPropTypes": [Function],
+    "getNode": [Function],
+    "render": [Function],
+    "simulateError": [Function],
+    "simulateEvent": [Function],
+    "unmount": [Function],
+  },
+  Symbol(enzyme.__node__): Object {
+    "instance": null,
+    "key": undefined,
+    "nodeType": "host",
+    "props": Object {
+      "children": Array [
+        <i
+          className="close icon"
+        />,
+        <div
+          className="header"
+        />,
+        <div
+          className="image content"
+        >
+          <div
+            className="ui medium image"
+          >
+            <img
+              alt=""
+              src="/images/avatar/large/chris.jpg"
+            />
+          </div>
+          <div
+            className="description"
+          >
+            <div
+              className="ui header"
+            >
+              We've auto-chosen a profile image for you.
+            </div>
+            <p />
+          </div>
+        </div>,
+        <div
+          className="actions"
+        >
+          <div
+            className="ui black deny button"
+          >
+            Nope
+          </div>
+          <div
+            className="ui positive right labeled icon button"
+          >
+            Yep, that's me
+            <i
+              className="checkmark icon"
+            />
+          </div>
+        </div>,
+      ],
+      "className": "ui modal",
+    },
+    "ref": null,
+    "rendered": Array [
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "className": "close icon",
+        },
+        "ref": null,
+        "rendered": null,
+        "type": "i",
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": undefined,
+          "className": "header",
+        },
+        "ref": null,
+        "rendered": null,
+        "type": "div",
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": Array [
+            <div
+              className="ui medium image"
+            >
+              <img
+                alt=""
+                src="/images/avatar/large/chris.jpg"
+              />
+            </div>,
+            <div
+              className="description"
+            >
+              <div
+                className="ui header"
+              >
+                We've auto-chosen a profile image for you.
+              </div>
+              <p />
+            </div>,
+          ],
+          "className": "image content",
+        },
+        "ref": null,
+        "rendered": Array [
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": <img
+                alt=""
+                src="/images/avatar/large/chris.jpg"
+              />,
+              "className": "ui medium image",
+            },
+            "ref": null,
+            "rendered": Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "alt": "",
+                "src": "/images/avatar/large/chris.jpg",
+              },
+              "ref": null,
+              "rendered": null,
+              "type": "img",
+            },
+            "type": "div",
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": Array [
+                <div
+                  className="ui header"
+                >
+                  We've auto-chosen a profile image for you.
+                </div>,
+                <p />,
+              ],
+              "className": "description",
+            },
+            "ref": null,
+            "rendered": Array [
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": "We've auto-chosen a profile image for you.",
+                  "className": "ui header",
+                },
+                "ref": null,
+                "rendered": "We've auto-chosen a profile image for you.",
+                "type": "div",
+              },
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": undefined,
+                },
+                "ref": null,
+                "rendered": null,
+                "type": "p",
+              },
+            ],
+            "type": "div",
+          },
+        ],
+        "type": "div",
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": Array [
+            <div
+              className="ui black deny button"
+            >
+              Nope
+            </div>,
+            <div
+              className="ui positive right labeled icon button"
+            >
+              Yep, that's me
+              <i
+                className="checkmark icon"
+              />
+            </div>,
+          ],
+          "className": "actions",
+        },
+        "ref": null,
+        "rendered": Array [
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": "Nope",
+              "className": "ui black deny button",
+              "onClick": undefined,
+            },
+            "ref": null,
+            "rendered": "Nope",
+            "type": "div",
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": Array [
+                "Yep, that's me",
+                <i
+                  className="checkmark icon"
+                />,
+              ],
+              "className": "ui positive right labeled icon button",
+              "onClick": undefined,
+            },
+            "ref": null,
+            "rendered": Array [
+              "Yep, that's me",
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "className": "checkmark icon",
+                },
+                "ref": null,
+                "rendered": null,
+                "type": "i",
+              },
+            ],
+            "type": "div",
+          },
+        ],
+        "type": "div",
+      },
+    ],
+    "type": "div",
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "host",
+      "props": Object {
+        "children": Array [
+          <i
+            className="close icon"
+          />,
+          <div
+            className="header"
+          />,
+          <div
+            className="image content"
+          >
+            <div
+              className="ui medium image"
+            >
+              <img
+                alt=""
+                src="/images/avatar/large/chris.jpg"
+              />
+            </div>
+            <div
+              className="description"
+            >
+              <div
+                className="ui header"
+              >
+                We've auto-chosen a profile image for you.
+              </div>
+              <p />
+            </div>
+          </div>,
+          <div
+            className="actions"
+          >
+            <div
+              className="ui black deny button"
+            >
+              Nope
+            </div>
+            <div
+              className="ui positive right labeled icon button"
+            >
+              Yep, that's me
+              <i
+                className="checkmark icon"
+              />
+            </div>
+          </div>,
+        ],
+        "className": "ui modal",
+      },
+      "ref": null,
+      "rendered": Array [
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "className": "close icon",
+          },
+          "ref": null,
+          "rendered": null,
+          "type": "i",
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": undefined,
+            "className": "header",
+          },
+          "ref": null,
+          "rendered": null,
+          "type": "div",
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": Array [
+              <div
+                className="ui medium image"
+              >
+                <img
+                  alt=""
+                  src="/images/avatar/large/chris.jpg"
+                />
+              </div>,
+              <div
+                className="description"
+              >
+                <div
+                  className="ui header"
+                >
+                  We've auto-chosen a profile image for you.
+                </div>
+                <p />
+              </div>,
+            ],
+            "className": "image content",
+          },
+          "ref": null,
+          "rendered": Array [
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": <img
+                  alt=""
+                  src="/images/avatar/large/chris.jpg"
+                />,
+                "className": "ui medium image",
+              },
+              "ref": null,
+              "rendered": Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "alt": "",
+                  "src": "/images/avatar/large/chris.jpg",
+                },
+                "ref": null,
+                "rendered": null,
+                "type": "img",
+              },
+              "type": "div",
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": Array [
+                  <div
+                    className="ui header"
+                  >
+                    We've auto-chosen a profile image for you.
+                  </div>,
+                  <p />,
+                ],
+                "className": "description",
+              },
+              "ref": null,
+              "rendered": Array [
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "host",
+                  "props": Object {
+                    "children": "We've auto-chosen a profile image for you.",
+                    "className": "ui header",
+                  },
+                  "ref": null,
+                  "rendered": "We've auto-chosen a profile image for you.",
+                  "type": "div",
+                },
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "host",
+                  "props": Object {
+                    "children": undefined,
+                  },
+                  "ref": null,
+                  "rendered": null,
+                  "type": "p",
+                },
+              ],
+              "type": "div",
+            },
+          ],
+          "type": "div",
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": Array [
+              <div
+                className="ui black deny button"
+              >
+                Nope
+              </div>,
+              <div
+                className="ui positive right labeled icon button"
+              >
+                Yep, that's me
+                <i
+                  className="checkmark icon"
+                />
+              </div>,
+            ],
+            "className": "actions",
+          },
+          "ref": null,
+          "rendered": Array [
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": "Nope",
+                "className": "ui black deny button",
+                "onClick": undefined,
+              },
+              "ref": null,
+              "rendered": "Nope",
+              "type": "div",
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": Array [
+                  "Yep, that's me",
+                  <i
+                    className="checkmark icon"
+                  />,
+                ],
+                "className": "ui positive right labeled icon button",
+                "onClick": undefined,
+              },
+              "ref": null,
+              "rendered": Array [
+                "Yep, that's me",
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "host",
+                  "props": Object {
+                    "className": "checkmark icon",
+                  },
+                  "ref": null,
+                  "rendered": null,
+                  "type": "i",
+                },
+              ],
+              "type": "div",
+            },
+          ],
+          "type": "div",
+        },
+      ],
+      "type": "div",
+    },
+  ],
+  Symbol(enzyme.__options__): Object {
+    "adapter": ReactSixteenAdapter {
+      "options": Object {
+        "enableComponentDidUpdateOnSetState": true,
+        "legacyContextMode": "parent",
+        "lifecycles": Object {
+          "componentDidUpdate": Object {
+            "onSetState": true,
+          },
+          "getChildContext": Object {
+            "calledByRenderer": false,
+          },
+          "getDerivedStateFromError": true,
+          "getDerivedStateFromProps": Object {
+            "hasShouldComponentUpdateBug": false,
+          },
+          "getSnapshotBeforeUpdate": true,
+          "setState": Object {
+            "skipsComponentDidUpdateOnNullish": true,
+          },
+        },
+      },
+    },
+    "disableLifecycleMethods": true,
+    Symbol(enzyme.__providerValues__): undefined,
+  },
+  Symbol(enzyme.__providerValues__): Map {},
+}
+`;

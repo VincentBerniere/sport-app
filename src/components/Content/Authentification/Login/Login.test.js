@@ -25,13 +25,5 @@ describe('Login', () => {
         it('update the password in `state`', () => {
             expect(login.state().password).toMatchSnapshot(password);
         });
-
-        it('submit the form', () => {
-            login.instance().onLoginFormSubmit = jest.fn();
-
-            login.find('.ui.primary.button').simulate('click');
-
-            expect(login.instance().onLoginFormSubmit).toHaveBeenCalled();
-        });
     });
 });

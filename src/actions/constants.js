@@ -1,3 +1,3 @@
-export const TRAINING_SELECTED = 'TRAINING_SELECTED';
+export const SHOW_MODAL = 'SHOW_MODAL';
 
-export const FETCH_TRAININGS = 'FETCH_TRAININGS';
+export const HIDE_MODAL = 'HIDE_MODAL';

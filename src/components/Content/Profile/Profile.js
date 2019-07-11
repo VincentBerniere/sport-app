@@ -1,19 +1,19 @@
 import React, { Component } from 'react';
+import { Redirect, Link } from 'react-router-dom';
 import jsonTraining from '../../../api/training';
-import { Link } from 'react-router-dom';
 import TrainingCard from '../TrainingCard/TrainingCard';
-import './TrainingList.css';
 
-class TrainingList extends Component {
+class Profile extends Component {
     state = {
-        trainings: []
+        trainings: [],
+        redirect: false
     }
 
     componentDidMount() {
-        this.fetchTrainings();
+        this.fetchMyTrainings();
     }
 
-    fetchTrainings() {
+    fetchMyTrainings() {
         jsonTraining
             .get()
             .then(res => this.setState({ trainings: res.data }));
@@ -43,7 +43,7 @@ class TrainingList extends Component {
                         </button>
                     </Link>
                 </div>
-                
+
                 <div id="boards">
                     {this.renderList()}
                 </div>
@@ -52,4 +52,4 @@ class TrainingList extends Component {
     }
 }
 
-export default TrainingList;
+export default Profile;
